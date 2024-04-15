@@ -21,7 +21,6 @@ return {
 				noice = true,
 				telescope = {
 					enabled = true,
-					-- style = "nvchad"
 				},
 				indent_blankline = {
 					enabled = true,
