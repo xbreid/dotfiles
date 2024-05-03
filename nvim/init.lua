@@ -14,3 +14,6 @@ vim.g.have_nerd_font = true
 
 require("vim-options")
 require("lazy").setup("plugins")
+
+MYHOME = os.getenv("HOME")
+vim.g.python3_host_prog = MYHOME .. "/.pyenv/versions/neovim/bin/python"
