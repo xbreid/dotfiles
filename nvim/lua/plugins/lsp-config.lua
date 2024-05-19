@@ -36,7 +36,13 @@ return {
           },
         },
       })
+      lspconfig.solargraph.setup({
+        capabilities = capabilities,
+      })
       lspconfig.pylsp.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.jdtls.setup({
         capabilities = capabilities,
       })
       lspconfig.dartls.setup({

@@ -10,6 +10,10 @@ return {
       hide_fillchars = true,
       borderless_telescope = false,
       terminal_colors = true,
+
+      theme = {
+        variant = "default",
+      },
     })
     vim.cmd("colorscheme cyberdream") -- set the colorscheme
   end,

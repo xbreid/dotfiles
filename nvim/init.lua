@@ -17,3 +17,4 @@ require("lazy").setup("plugins")
 
 MYHOME = os.getenv("HOME")
 vim.g.python3_host_prog = MYHOME .. "/.pyenv/versions/neovim/bin/python"
+vim.g.ruby_host_prog = MYHOME .. "/.rbenv/versions/2.7.1/bin/neovim-ruby-host"
